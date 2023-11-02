@@ -15,12 +15,32 @@
    <header class="header">
     <a href="#" class="logo">Portfolio</a>
     <nav class="navbar">
-        <a href="#home" style="--i:1" class="active">Home</a>
+        <a href="#home" style="--i:1" class="active"> Home</a>
         <a href="#about" style="--i:2" class="active">About</a>
         <a href="#services" style="--i:3" class="active">Skill</a>
         <a href="#skills" style="--i:4" class="active">Portfolio</a>
         <a href="#contact" style="--i:5" class="active">Contact</a>
     </nav>
+            <!--Nav for mobile -->
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar-m"></div>
+          <div id="bar2" class="bar-m"></div>
+          <div id="bar3" class="bar-m"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+        <li><a href="#home" style="--i:1" class="active">Home</a></li>
+        <li><a href="#about" style="--i:2" class="active">About</a></li>
+        <li><a href="#services" style="--i:3" class="active">Skill</a></li>
+        <li><a href="#skills" style="--i:4" class="active">Portfolio</a></li>
+       <li><a href="#contact" style="--i:5" class="active">Contact</a></li> 
+          </ul>
+        </nav> 
+      </div>
+      <div class="menu-bg" id="menu-bg"></div>
+
+
    </header> 
    <section class="home">
     <div class="home-content">
@@ -62,7 +82,7 @@
     <div class="services-list">
         <div>
             <i class='bx bx-code' style='color:#00eeff'  ></i>
-            <h2>UI/UX Desing</h2>
+            <h2>Frontend Desing</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
