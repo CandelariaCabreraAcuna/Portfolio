@@ -7,8 +7,15 @@ var typed = new Typed (".text",{
 });
 
 
-function menuOnClick() {
+let navWrapper = document.querySelector('.nav-wrapper'),
+navToogler =  document.querySelector('.nav-toogler')
+
+navToogler.addEventListener('click', function (event) {
+navWrapper.classList.toggle('active')
+})
+
+/*function menuOnClick() {
     document.getElementById("menu-bar").classList.toggle("change");
     document.getElementById("nav").classList.toggle("change");
     document.getElementById("menu-bg").classList.toggle("change-bg");
-  }
+  }*/
