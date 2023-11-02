@@ -657,7 +657,7 @@ border-radius: 0.5rem;
 }
 
 
-header > .navigation{
+.header > .nav-wrapper{
     display: none;
 }
 
@@ -737,13 +737,18 @@ header > .navigation{
 
     }
     
+    .header > .nav-wrapper{
+        display: flex;
+    }
+
     .logo{
         display: none;
     }
     .navbar a{
         display: none;
     }
-      
+    
+    
     .home-content h1{
         font-size: 40px;
         font-weight: 700;
