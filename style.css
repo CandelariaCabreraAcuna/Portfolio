@@ -197,6 +197,7 @@ body{
     grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    margin: 1.2rem;
 }
 .services-list div{/* margenes */
     background-color: transparent;
@@ -301,13 +302,13 @@ section{
     width: 90%;
 }
 .progress-line.css span{
-    width: 85%;
+    width: 80%;
 }
 .progress-line.javascript span{
     width: 85%;
 }
 .progress-line.python span{
-    width: 50%;
+    width: 90%;
 }
 .progress-line.react span{
     width: 75%;
@@ -328,7 +329,7 @@ section{
     content: "90%";
 }
 .progress-line.css span::after{
-    content: "60%";
+    content: "80%";
 }
 .progress-line.javascript span::after{
     content: "85%";
@@ -337,7 +338,7 @@ section{
     content: "90%";
 }
 .progress-line.react span::after{
-    content: "90%";
+    content: "75%";
 }
 .progress-line span::before{
     content: "";
